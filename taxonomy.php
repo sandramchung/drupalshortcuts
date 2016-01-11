@@ -1,6 +1,6 @@
 <?php
 
-// Bulk create Drupal taxonomy vocabularies
+// Bulk create Drupal 7 taxonomy vocabularies
 
 function _create_vocabs() {
 
