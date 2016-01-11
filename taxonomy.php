@@ -1,11 +1,13 @@
 <?php
 
+// Bulk create Drupal taxonomy vocabularies
+
 function _create_vocabs() {
 
   $new_vocabs = array(
-    'vocabulary_frequency' => 'Sampling Frequency',
-    'vocabulary_license' => 'License',
-    'vocabulary_install' => 'Install package',
+    'vocab_machine_name_1' => 'Human readable name 1',
+    'vocab_machine_name_2' => 'Human readable name 2',
+    'vocab_machine_name_3' => 'Human readable name 3',
     );
 
   foreach ($new_vocabs as $vocab_name => $name) {
